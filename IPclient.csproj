@@ -1,0 +1,259 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Remove="flf\3x5.flf" />
+		<None Remove="flf\banner.flf" />
+		<None Remove="flf\banner3.flf" />
+		<None Remove="flf\block.flf" />
+		<None Remove="flf\bulbhead.flf" />
+		<None Remove="flf\doom.flf" />
+		<None Remove="flf\dotmatrix.flf" />
+		<None Remove="flf\eftifont.flf" />
+		<None Remove="flf\epic.flf" />
+		<None Remove="flf\fuzzy.flf" />
+		<None Remove="flf\graffiti.flf" />
+		<None Remove="flf\invita.flf" />
+		<None Remove="flf\ivrit.flf" />
+		<None Remove="flf\jazmine.flf" />
+		<None Remove="flf\kban.flf" />
+		<None Remove="flf\larry3d.flf" />
+		<None Remove="flf\lean.flf" />
+		<None Remove="flf\letters.flf" />
+		<None Remove="flf\lockergnome.flf" />
+		<None Remove="flf\marquee.flf" />
+		<None Remove="flf\mini.flf" />
+		<None Remove="flf\nancyj-fancy.flf" />
+		<None Remove="flf\nancyj.flf" />
+		<None Remove="flf\nipples.flf" />
+		<None Remove="flf\ntgreek.flf" />
+		<None Remove="flf\o8.flf" />
+		<None Remove="flf\ogre.flf" />
+		<None Remove="flf\pawp.flf" />
+		<None Remove="flf\peaks.flf" />
+		<None Remove="flf\pebbles.flf" />
+		<None Remove="flf\pepper.flf" />
+		<None Remove="flf\poison.flf" />
+		<None Remove="flf\pyramid.flf" />
+		<None Remove="flf\rectangles.flf" />
+		<None Remove="flf\roman.flf" />
+		<None Remove="flf\rounded.flf" />
+		<None Remove="flf\rowancap.flf" />
+		<None Remove="flf\rozzo.flf" />
+		<None Remove="flf\sblood.flf" />
+		<None Remove="flf\script.flf" />
+		<None Remove="flf\serifcap.flf" />
+		<None Remove="flf\shadow.flf" />
+		<None Remove="flf\short.flf" />
+		<None Remove="flf\slant.flf" />
+		<None Remove="flf\small.flf" />
+		<None Remove="flf\smslant.flf" />
+		<None Remove="flf\speed.flf" />
+		<None Remove="flf\stampatello.flf" />
+		<None Remove="flf\standard.flf" />
+		<None Remove="flf\starwars.flf" />
+		<None Remove="flf\stellar.flf" />
+		<None Remove="flf\stop.flf" />
+		<None Remove="flf\straight.flf" />
+		<None Remove="flf\tengwar.flf" />
+		<None Remove="flf\thick.flf" />
+		<None Remove="flf\univers.flf" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Content Include="flf\3x5.flf">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="flf\banner.flf">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="flf\banner3.flf">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="flf\block.flf">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="flf\bulbhead.flf">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="flf\doom.flf">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="flf\dotmatrix.flf">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="flf\eftifont.flf">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="flf\epic.flf">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="flf\fuzzy.flf">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="flf\graffiti.flf">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="flf\invita.flf">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="flf\ivrit.flf">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="flf\jazmine.flf">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="flf\kban.flf">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="flf\larry3d.flf">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="flf\lean.flf">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="flf\letters.flf">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="flf\lockergnome.flf">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="flf\marquee.flf">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="flf\mini.flf">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="flf\nancyj-fancy.flf">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="flf\nancyj.flf">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="flf\nipples.flf">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="flf\ntgreek.flf">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="flf\o8.flf">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="flf\ogre.flf">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="flf\pawp.flf">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="flf\peaks.flf">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="flf\pebbles.flf">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="flf\pepper.flf">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="flf\poison.flf">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="flf\pyramid.flf">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="flf\rectangles.flf">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="flf\roman.flf">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="flf\rounded.flf">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="flf\rowancap.flf">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="flf\rozzo.flf">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="flf\sblood.flf">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="flf\script.flf">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="flf\serifcap.flf">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="flf\shadow.flf">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="flf\short.flf">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="flf\slant.flf">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="flf\small.flf">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="flf\smslant.flf">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="flf\speed.flf">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="flf\stampatello.flf">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="flf\standard.flf">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="flf\starwars.flf">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="flf\stellar.flf">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="flf\stop.flf">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="flf\straight.flf">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="flf\tengwar.flf">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="flf\thick.flf">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="flf\univers.flf">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="6.0.0" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+		<PackageReference Include="Spectre.Console" Version="0.43.1-preview.0.16" />
+		<PackageReference Include="System.Configuration.ConfigurationManager" Version="6.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\IPClient.Shared\IPClient.Shared.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="appsettings.json">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+
+</Project>
